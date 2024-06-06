@@ -10,9 +10,7 @@ const Hero: React.FC = () => {
         <div className="relative flex flex-col gap-[24px] pt-[76px] tablet:flex-row tablet:gap-[48px] desktop:gap-[148px] tablet:pt-0">
           <div className="flex flex-col gap-[24px] tablet:gap-[68px]">
             <h1 className="text-[40px] tablet:text-[67px] desktop:text-[78px] font-thin leading-[1.4] tracking-[-1.6px] tablet:tracking-[-2.68px] desktop:tracking-[-3.92px] tablet:leading-normal uppercase">
-              <span className="inline-block font-medium">
-                Comfort Partners
-              </span>
+              <span className="inline-block font-medium">Comfort Partners</span>
               <br />
               {"premium"}
               <br />
@@ -22,7 +20,7 @@ const Hero: React.FC = () => {
             <p className="text-[10px] tablet:text-[14px] desktop:text-[16px] font-extralight leading-[1.6] tablet:leading-[1.143] desktop:leading-[1.5] tablet:tracking-[1.26px] desktop:tracking-[1.44px]">
               {`London / Manchester / Liverpool / ${" "} `}
               <br className="desktop:hidden" />
-              Bristol / Glasgow / Birmingham
+              Leicester / Nottingham/ Coventry / Birmingham / All Major UK Airports For Arrivals & Departure
             </p>
           </div>
 
@@ -52,7 +50,7 @@ const Hero: React.FC = () => {
               target="_blank"
               className="hero-btn relative flex justify-center items-center  w-full h-[53px] tablet:h-[50px] desktop:h-[71px] text-[18px] desktop:text-[32px] font-bold leading-[2.666] tablet:leading-normal uppercase transition_prop bg-gray-middle hover:bg-gray-strong focus:bg-gray-strong focus:outline-none"
             >
-              Register Now
+              Book Your Trip
             </Link>
           </div>
         </div>
