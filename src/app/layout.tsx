@@ -1,8 +1,13 @@
 import "@app/globals.css";
-
+import "@fontsource/cinzel";
 import type { Metadata } from "next";
-
 import { AppBar } from "@components";
+import {Cinzel} from "@next/font/google"
+
+const cinzel= Cinzel({
+  subsets: ["latin"],
+  weight: ["400"]
+})
 
 type Props = {
   children: React.ReactNode;
@@ -35,7 +40,7 @@ const RootLayout = ({ children }: Props) => {
     <html lang="en">
       <body className="app relative">
         <AppBar />
-        <main>{children}</main>
+        <main className={cinzel.className}>{children}</main>
       </body>
     </html>
   );

@@ -167,7 +167,7 @@
     url("/assets/images/mobile/backgrounds/hero/hero.jpg");
 
   background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-    -webkit-image-set(url("/assets/images/mobile/backgrounds/hero/hero.webp") 1x);
+    -webkit-image-set(url("/assets/images/mobile/backgrounds/hero/hero.jpg") 1x);
 }
 
 .section-about {
@@ -299,10 +299,10 @@
 
   .hero {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      url("/assets/images/mobile/backgrounds/hero/hero@2x.jpg");
+      url("/assets/images/mobile/backgrounds/hero/hero.jpg");
 
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      -webkit-image-set(url("/assets/images/mobile/backgrounds/hero/hero@2x.webp")
+      -webkit-image-set(url("/assets/images/mobile/backgrounds/hero/hero.webp")
             2x);
   }
 
@@ -420,7 +420,7 @@
       url("/assets/images/tablet/backgrounds/hero/hero.jpg");
 
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      -webkit-image-set(url("/assets/images/tablet/backgrounds/hero/hero.webp")
+      -webkit-image-set(url("/assets/images/tablet/backgrounds/hero/hero.jpg")
             1x);
   }
 
@@ -532,10 +532,10 @@
   screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      url("/assets/images/tablet/backgrounds/hero/hero@2x.jpg");
+      url("/assets/images/tablet/backgrounds/hero/hero.jpg");
 
     background-image: var(--overlay-gradient), var(--extra-gradient-medium-top),
-      -webkit-image-set(url("/assets/images/tablet/backgrounds/hero/hero@2x.webp")
+      -webkit-image-set(url("/assets/images/tablet/backgrounds/hero/hero.jpg")
             2x);
   }
 
@@ -777,7 +777,7 @@
         rgba(0, 37, 49, 0) 40%,
         rgba(0, 37, 49, 0) 100%
       ),
-      url("/assets/images/desktop/backgrounds/hero/hero@2x.jpg");
+      url("/assets/images/desktop/backgrounds/hero/hero.jpg");
 
     background-image: var(--overlay-gradient),
       linear-gradient(
@@ -786,7 +786,7 @@
         rgba(0, 37, 49, 0) 40%,
         rgba(0, 37, 49, 0) 100%
       ),
-      -webkit-image-set(url("/assets/images/desktop/backgrounds/hero/hero@2x.webp")
+      -webkit-image-set(url("/assets/images/desktop/backgrounds/hero/hero.jpg")
             2x);
   }
 
